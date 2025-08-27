@@ -1,0 +1,80 @@
+$date
+	Wed Aug 27 16:51:31 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_alu_with_mux $end
+$var wire 4 ! result [3:0] $end
+$var reg 4 " A [3:0] $end
+$var reg 4 # B [3:0] $end
+$var reg 2 $ select [1:0] $end
+$scope module uut $end
+$var wire 4 % A [3:0] $end
+$var wire 4 & B [3:0] $end
+$var wire 4 ' and_result [3:0] $end
+$var wire 4 ( or_result [3:0] $end
+$var wire 2 ) select [1:0] $end
+$var wire 4 * sum [3:0] $end
+$var wire 4 + result [3:0] $end
+$var wire 4 , difference [3:0] $end
+$scope module mux_inst $end
+$var wire 4 - in0 [3:0] $end
+$var wire 4 . in1 [3:0] $end
+$var wire 4 / in2 [3:0] $end
+$var wire 4 0 in3 [3:0] $end
+$var wire 2 1 sel [1:0] $end
+$var reg 4 2 out [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1000 2
+b0 1
+b111 0
+b1 /
+b1110 .
+b1000 -
+b1110 ,
+b1000 +
+b1000 *
+b0 )
+b111 (
+b1 '
+b101 &
+b11 %
+b0 $
+b101 #
+b11 "
+b1000 !
+$end
+#10000
+b1110 !
+b1110 +
+b1110 2
+b1 $
+b1 )
+b1 1
+#20000
+b1 !
+b1 +
+b1 2
+b10 $
+b10 )
+b10 1
+#30000
+b111 !
+b111 +
+b111 2
+b11 $
+b11 )
+b11 1
+#50000
