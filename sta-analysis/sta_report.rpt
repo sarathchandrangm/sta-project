@@ -1,0 +1,716 @@
+Warning: constraints.sdc line 54, unknown field nets.
+Warning: constraints.sdc line 54, report_checks -endpoint_count is deprecated. Use -endpoint_path_count instead.
+Startpoint: B[0] (input port clocked by CLK)
+Endpoint: result[0] (output port clocked by CLK)
+Path Group: CLK
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 ^ input external delay
+     6    8.89    0.00    0.00    5.00 ^ B[0] (in)
+                  0.00    0.00    5.00 ^ _49_/A (XOR2_X1)
+     1    1.53    0.01    0.01    5.01 v _49_/Z (XOR2_X1)
+                  0.01    0.00    5.01 v mux_inst/_35_/A1 (NAND2_X1)
+     1    1.66    0.01    0.01    5.02 ^ mux_inst/_35_/ZN (NAND2_X1)
+                  0.01    0.00    5.02 ^ mux_inst/_36_/A4 (NAND4_X1)
+     1    0.00    0.01    0.02    5.05 v mux_inst/_36_/ZN (NAND4_X1)
+                  0.01    0.00    5.05 v result[0] (out)
+                                  5.05   data arrival time
+
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                         -5.00   -5.00   output external delay
+                                 -5.00   data required time
+-----------------------------------------------------------------------------
+                                 -5.00   data required time
+                                 -5.05   data arrival time
+-----------------------------------------------------------------------------
+                                 10.05   slack (MET)
+
+
+Startpoint: B[0] (input port clocked by CLK)
+Endpoint: result[0] (output port clocked by CLK)
+Path Group: CLK
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 ^ input external delay
+     6    8.89    0.00    0.00    5.00 ^ B[0] (in)
+                  0.00    0.00    5.00 ^ _33_/A (XOR2_X1)
+     1    1.56    0.01    0.01    5.01 v _33_/Z (XOR2_X1)
+                  0.01    0.00    5.01 v mux_inst/_34_/A1 (NAND3_X1)
+     1    1.64    0.01    0.01    5.02 ^ mux_inst/_34_/ZN (NAND3_X1)
+                  0.01    0.00    5.02 ^ mux_inst/_36_/A3 (NAND4_X1)
+     1    0.00    0.01    0.02    5.05 v mux_inst/_36_/ZN (NAND4_X1)
+                  0.01    0.00    5.05 v result[0] (out)
+                                  5.05   data arrival time
+
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                         -5.00   -5.00   output external delay
+                                 -5.00   data required time
+-----------------------------------------------------------------------------
+                                 -5.00   data required time
+                                 -5.05   data arrival time
+-----------------------------------------------------------------------------
+                                 10.05   slack (MET)
+
+
+Startpoint: A[0] (input port clocked by CLK)
+Endpoint: result[0] (output port clocked by CLK)
+Path Group: CLK
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 ^ input external delay
+     5    8.34    0.00    0.00    5.00 ^ A[0] (in)
+                  0.00    0.00    5.00 ^ _49_/B (XOR2_X1)
+     1    1.53    0.01    0.01    5.01 v _49_/Z (XOR2_X1)
+                  0.01    0.00    5.01 v mux_inst/_35_/A1 (NAND2_X1)
+     1    1.66    0.01    0.01    5.02 ^ mux_inst/_35_/ZN (NAND2_X1)
+                  0.01    0.00    5.02 ^ mux_inst/_36_/A4 (NAND4_X1)
+     1    0.00    0.01    0.02    5.05 v mux_inst/_36_/ZN (NAND4_X1)
+                  0.01    0.00    5.05 v result[0] (out)
+                                  5.05   data arrival time
+
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                         -5.00   -5.00   output external delay
+                                 -5.00   data required time
+-----------------------------------------------------------------------------
+                                 -5.00   data required time
+                                 -5.05   data arrival time
+-----------------------------------------------------------------------------
+                                 10.05   slack (MET)
+
+
+Startpoint: A[0] (input port clocked by CLK)
+Endpoint: result[0] (output port clocked by CLK)
+Path Group: CLK
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 ^ input external delay
+     5    8.34    0.00    0.00    5.00 ^ A[0] (in)
+                  0.00    0.00    5.00 ^ _33_/B (XOR2_X1)
+     1    1.56    0.01    0.01    5.01 v _33_/Z (XOR2_X1)
+                  0.01    0.00    5.01 v mux_inst/_34_/A1 (NAND3_X1)
+     1    1.64    0.01    0.01    5.03 ^ mux_inst/_34_/ZN (NAND3_X1)
+                  0.01    0.00    5.03 ^ mux_inst/_36_/A3 (NAND4_X1)
+     1    0.00    0.01    0.02    5.05 v mux_inst/_36_/ZN (NAND4_X1)
+                  0.01    0.00    5.05 v result[0] (out)
+                                  5.05   data arrival time
+
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                         -5.00   -5.00   output external delay
+                                 -5.00   data required time
+-----------------------------------------------------------------------------
+                                 -5.00   data required time
+                                 -5.05   data arrival time
+-----------------------------------------------------------------------------
+                                 10.05   slack (MET)
+
+
+Startpoint: B[3] (input port clocked by CLK)
+Endpoint: result[3] (output port clocked by CLK)
+Path Group: CLK
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 ^ input external delay
+     3    4.10    0.00    0.00    5.00 ^ B[3] (in)
+                  0.00    0.00    5.00 ^ _20_/A1 (OR2_X1)
+     1    1.65    0.01    0.02    5.02 ^ _20_/ZN (OR2_X1)
+                  0.01    0.00    5.02 ^ mux_inst/_37_/A3 (NAND3_X1)
+     1    1.52    0.01    0.02    5.04 v mux_inst/_37_/ZN (NAND3_X1)
+                  0.01    0.00    5.04 v mux_inst/_41_/A1 (NAND4_X1)
+     1    0.00    0.01    0.01    5.05 ^ mux_inst/_41_/ZN (NAND4_X1)
+                  0.01    0.00    5.05 ^ result[3] (out)
+                                  5.05   data arrival time
+
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                         -5.00   -5.00   output external delay
+                                 -5.00   data required time
+-----------------------------------------------------------------------------
+                                 -5.00   data required time
+                                 -5.05   data arrival time
+-----------------------------------------------------------------------------
+                                 10.05   slack (MET)
+
+
+Startpoint: B[1] (input port clocked by CLK)
+Endpoint: result[1] (output port clocked by CLK)
+Path Group: CLK
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 ^ input external delay
+     4    6.49    0.00    0.00    5.00 ^ B[1] (in)
+                  0.00    0.00    5.00 ^ _27_/A1 (OR2_X1)
+     1    1.59    0.01    0.02    5.02 ^ _27_/ZN (OR2_X1)
+                  0.01    0.00    5.02 ^ mux_inst/_29_/A1 (NAND3_X1)
+     1    1.54    0.01    0.02    5.03 v mux_inst/_29_/ZN (NAND3_X1)
+                  0.01    0.00    5.03 v mux_inst/_31_/A3 (NAND4_X1)
+     1    0.00    0.01    0.02    5.05 ^ mux_inst/_31_/ZN (NAND4_X1)
+                  0.01    0.00    5.05 ^ result[1] (out)
+                                  5.05   data arrival time
+
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                         -5.00   -5.00   output external delay
+                                 -5.00   data required time
+-----------------------------------------------------------------------------
+                                 -5.00   data required time
+                                 -5.05   data arrival time
+-----------------------------------------------------------------------------
+                                 10.05   slack (MET)
+
+
+Startpoint: B[2] (input port clocked by CLK)
+Endpoint: result[2] (output port clocked by CLK)
+Path Group: CLK
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 ^ input external delay
+     4    5.67    0.00    0.00    5.00 ^ B[2] (in)
+                  0.00    0.00    5.00 ^ _23_/A1 (OR2_X1)
+     1    1.59    0.01    0.02    5.02 ^ _23_/ZN (OR2_X1)
+                  0.01    0.00    5.02 ^ mux_inst/_25_/A1 (NAND3_X1)
+     1    1.49    0.01    0.02    5.03 v mux_inst/_25_/ZN (NAND3_X1)
+                  0.01    0.00    5.03 v mux_inst/_26_/A4 (NAND4_X1)
+     1    0.00    0.01    0.02    5.05 ^ mux_inst/_26_/ZN (NAND4_X1)
+                  0.01    0.00    5.05 ^ result[2] (out)
+                                  5.05   data arrival time
+
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                         -5.00   -5.00   output external delay
+                                 -5.00   data required time
+-----------------------------------------------------------------------------
+                                 -5.00   data required time
+                                 -5.05   data arrival time
+-----------------------------------------------------------------------------
+                                 10.05   slack (MET)
+
+
+Startpoint: A[3] (input port clocked by CLK)
+Endpoint: result[3] (output port clocked by CLK)
+Path Group: CLK
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 ^ input external delay
+     3    4.28    0.00    0.00    5.00 ^ A[3] (in)
+                  0.00    0.00    5.00 ^ _20_/A2 (OR2_X1)
+     1    1.65    0.01    0.02    5.02 ^ _20_/ZN (OR2_X1)
+                  0.01    0.00    5.02 ^ mux_inst/_37_/A3 (NAND3_X1)
+     1    1.52    0.01    0.02    5.04 v mux_inst/_37_/ZN (NAND3_X1)
+                  0.01    0.00    5.04 v mux_inst/_41_/A1 (NAND4_X1)
+     1    0.00    0.01    0.01    5.05 ^ mux_inst/_41_/ZN (NAND4_X1)
+                  0.01    0.00    5.05 ^ result[3] (out)
+                                  5.05   data arrival time
+
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                         -5.00   -5.00   output external delay
+                                 -5.00   data required time
+-----------------------------------------------------------------------------
+                                 -5.00   data required time
+                                 -5.05   data arrival time
+-----------------------------------------------------------------------------
+                                 10.05   slack (MET)
+
+
+Startpoint: A[1] (input port clocked by CLK)
+Endpoint: result[1] (output port clocked by CLK)
+Path Group: CLK
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 ^ input external delay
+     4    6.67    0.00    0.00    5.00 ^ A[1] (in)
+                  0.00    0.00    5.00 ^ _27_/A2 (OR2_X1)
+     1    1.59    0.01    0.02    5.02 ^ _27_/ZN (OR2_X1)
+                  0.01    0.00    5.02 ^ mux_inst/_29_/A1 (NAND3_X1)
+     1    1.54    0.01    0.02    5.04 v mux_inst/_29_/ZN (NAND3_X1)
+                  0.01    0.00    5.04 v mux_inst/_31_/A3 (NAND4_X1)
+     1    0.00    0.01    0.02    5.05 ^ mux_inst/_31_/ZN (NAND4_X1)
+                  0.01    0.00    5.05 ^ result[1] (out)
+                                  5.05   data arrival time
+
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                         -5.00   -5.00   output external delay
+                                 -5.00   data required time
+-----------------------------------------------------------------------------
+                                 -5.00   data required time
+                                 -5.05   data arrival time
+-----------------------------------------------------------------------------
+                                 10.05   slack (MET)
+
+
+Startpoint: A[2] (input port clocked by CLK)
+Endpoint: result[2] (output port clocked by CLK)
+Path Group: CLK
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 ^ input external delay
+     4    6.19    0.00    0.00    5.00 ^ A[2] (in)
+                  0.00    0.00    5.00 ^ _23_/A2 (OR2_X1)
+     1    1.59    0.01    0.02    5.02 ^ _23_/ZN (OR2_X1)
+                  0.01    0.00    5.02 ^ mux_inst/_25_/A1 (NAND3_X1)
+     1    1.49    0.01    0.02    5.04 v mux_inst/_25_/ZN (NAND3_X1)
+                  0.01    0.00    5.04 v mux_inst/_26_/A4 (NAND4_X1)
+     1    0.00    0.01    0.02    5.06 ^ mux_inst/_26_/ZN (NAND4_X1)
+                  0.01    0.00    5.06 ^ result[2] (out)
+                                  5.06   data arrival time
+
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                         -5.00   -5.00   output external delay
+                                 -5.00   data required time
+-----------------------------------------------------------------------------
+                                 -5.00   data required time
+                                 -5.06   data arrival time
+-----------------------------------------------------------------------------
+                                 10.06   slack (MET)
+
+
+Startpoint: A[1] (input port clocked by CLK)
+Endpoint: result[3] (output port clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 v input external delay
+     4    6.36    0.00    0.00    5.00 v A[1] (in)
+                  0.00    0.00    5.00 v _30_/B (XOR2_X1)
+     4    6.13    0.02    0.06    5.06 v _30_/Z (XOR2_X1)
+                  0.02    0.00    5.06 v _34_/A (AOI21_X1)
+     3    4.94    0.04    0.06    5.12 ^ _34_/ZN (AOI21_X1)
+                  0.04    0.00    5.12 ^ _36_/B2 (OAI21_X1)
+     1    1.52    0.01    0.02    5.14 v _36_/ZN (OAI21_X1)
+                  0.01    0.00    5.14 v _37_/A (OAI21_X1)
+     1    2.57    0.02    0.02    5.17 ^ _37_/ZN (OAI21_X1)
+                  0.02    0.00    5.17 ^ _38_/B (XNOR2_X1)
+     1    1.65    0.02    0.04    5.21 ^ _38_/ZN (XNOR2_X1)
+                  0.02    0.00    5.21 ^ mux_inst/_40_/A3 (NAND3_X1)
+     1    1.49    0.01    0.02    5.23 v mux_inst/_40_/ZN (NAND3_X1)
+                  0.01    0.00    5.23 v mux_inst/_41_/A4 (NAND4_X1)
+     1    0.00    0.01    0.02    5.25 ^ mux_inst/_41_/ZN (NAND4_X1)
+                  0.01    0.00    5.25 ^ result[3] (out)
+                                  5.25   data arrival time
+
+                  0.00 1000.00 1000.00   clock CLK (rise edge)
+                          0.00 1000.00   clock network delay (ideal)
+                          0.00 1000.00   clock reconvergence pessimism
+                         -5.00  995.00   output external delay
+                                995.00   data required time
+-----------------------------------------------------------------------------
+                                995.00   data required time
+                                 -5.25   data arrival time
+-----------------------------------------------------------------------------
+                                989.75   slack (MET)
+
+
+Startpoint: B[1] (input port clocked by CLK)
+Endpoint: result[3] (output port clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 v input external delay
+     4    5.92    0.00    0.00    5.00 v B[1] (in)
+                  0.00    0.00    5.00 v _30_/A (XOR2_X1)
+     4    6.13    0.02    0.06    5.06 v _30_/Z (XOR2_X1)
+                  0.02    0.00    5.06 v _34_/A (AOI21_X1)
+     3    4.94    0.04    0.06    5.11 ^ _34_/ZN (AOI21_X1)
+                  0.04    0.00    5.11 ^ _36_/B2 (OAI21_X1)
+     1    1.52    0.01    0.02    5.14 v _36_/ZN (OAI21_X1)
+                  0.01    0.00    5.14 v _37_/A (OAI21_X1)
+     1    2.57    0.02    0.02    5.16 ^ _37_/ZN (OAI21_X1)
+                  0.02    0.00    5.16 ^ _38_/B (XNOR2_X1)
+     1    1.65    0.02    0.04    5.20 ^ _38_/ZN (XNOR2_X1)
+                  0.02    0.00    5.20 ^ mux_inst/_40_/A3 (NAND3_X1)
+     1    1.49    0.01    0.02    5.23 v mux_inst/_40_/ZN (NAND3_X1)
+                  0.01    0.00    5.23 v mux_inst/_41_/A4 (NAND4_X1)
+     1    0.00    0.01    0.02    5.24 ^ mux_inst/_41_/ZN (NAND4_X1)
+                  0.01    0.00    5.24 ^ result[3] (out)
+                                  5.24   data arrival time
+
+                  0.00 1000.00 1000.00   clock CLK (rise edge)
+                          0.00 1000.00   clock network delay (ideal)
+                          0.00 1000.00   clock reconvergence pessimism
+                         -5.00  995.00   output external delay
+                                995.00   data required time
+-----------------------------------------------------------------------------
+                                995.00   data required time
+                                 -5.24   data arrival time
+-----------------------------------------------------------------------------
+                                989.76   slack (MET)
+
+
+Startpoint: A[1] (input port clocked by CLK)
+Endpoint: result[2] (output port clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 v input external delay
+     4    6.36    0.00    0.00    5.00 v A[1] (in)
+                  0.00    0.00    5.00 v _30_/B (XOR2_X1)
+     4    6.13    0.02    0.06    5.06 v _30_/Z (XOR2_X1)
+                  0.02    0.00    5.06 v _34_/A (AOI21_X1)
+     3    4.94    0.04    0.06    5.12 ^ _34_/ZN (AOI21_X1)
+                  0.04    0.00    5.12 ^ _35_/A2 (NOR2_X1)
+     1    2.37    0.01    0.02    5.13 v _35_/ZN (NOR2_X1)
+                  0.01    0.00    5.13 v _39_/B (XNOR2_X1)
+     1    1.56    0.01    0.04    5.17 v _39_/ZN (XNOR2_X1)
+                  0.01    0.00    5.17 v mux_inst/_24_/A1 (NAND3_X1)
+     1    1.64    0.01    0.02    5.19 ^ mux_inst/_24_/ZN (NAND3_X1)
+                  0.01    0.00    5.19 ^ mux_inst/_26_/A3 (NAND4_X1)
+     1    0.00    0.01    0.02    5.21 v mux_inst/_26_/ZN (NAND4_X1)
+                  0.01    0.00    5.21 v result[2] (out)
+                                  5.21   data arrival time
+
+                  0.00 1000.00 1000.00   clock CLK (rise edge)
+                          0.00 1000.00   clock network delay (ideal)
+                          0.00 1000.00   clock reconvergence pessimism
+                         -5.00  995.00   output external delay
+                                995.00   data required time
+-----------------------------------------------------------------------------
+                                995.00   data required time
+                                 -5.21   data arrival time
+-----------------------------------------------------------------------------
+                                989.79   slack (MET)
+
+
+Startpoint: B[1] (input port clocked by CLK)
+Endpoint: result[2] (output port clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 v input external delay
+     4    5.92    0.00    0.00    5.00 v B[1] (in)
+                  0.00    0.00    5.00 v _30_/A (XOR2_X1)
+     4    6.13    0.02    0.06    5.06 v _30_/Z (XOR2_X1)
+                  0.02    0.00    5.06 v _34_/A (AOI21_X1)
+     3    4.94    0.04    0.06    5.11 ^ _34_/ZN (AOI21_X1)
+                  0.04    0.00    5.11 ^ _35_/A2 (NOR2_X1)
+     1    2.37    0.01    0.02    5.13 v _35_/ZN (NOR2_X1)
+                  0.01    0.00    5.13 v _39_/B (XNOR2_X1)
+     1    1.56    0.01    0.04    5.17 v _39_/ZN (XNOR2_X1)
+                  0.01    0.00    5.17 v mux_inst/_24_/A1 (NAND3_X1)
+     1    1.64    0.01    0.02    5.19 ^ mux_inst/_24_/ZN (NAND3_X1)
+                  0.01    0.00    5.19 ^ mux_inst/_26_/A3 (NAND4_X1)
+     1    0.00    0.01    0.02    5.21 v mux_inst/_26_/ZN (NAND4_X1)
+                  0.01    0.00    5.21 v result[2] (out)
+                                  5.21   data arrival time
+
+                  0.00 1000.00 1000.00   clock CLK (rise edge)
+                          0.00 1000.00   clock network delay (ideal)
+                          0.00 1000.00   clock reconvergence pessimism
+                         -5.00  995.00   output external delay
+                                995.00   data required time
+-----------------------------------------------------------------------------
+                                995.00   data required time
+                                 -5.21   data arrival time
+-----------------------------------------------------------------------------
+                                989.79   slack (MET)
+
+
+Startpoint: B[1] (input port clocked by CLK)
+Endpoint: result[3] (output port clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 ^ input external delay
+     4    6.49    0.00    0.00    5.00 ^ B[1] (in)
+                  0.00    0.00    5.00 ^ _30_/A (XOR2_X1)
+     4    6.42    0.04    0.07    5.07 ^ _30_/Z (XOR2_X1)
+                  0.04    0.00    5.07 ^ _42_/A1 (NAND2_X1)
+     2    2.29    0.01    0.02    5.09 v _42_/ZN (NAND2_X1)
+                  0.01    0.00    5.09 v _43_/B2 (AOI21_X1)
+     2    3.37    0.03    0.04    5.13 ^ _43_/ZN (AOI21_X1)
+                  0.03    0.00    5.13 ^ _44_/A2 (NOR2_X1)
+     1    2.37    0.01    0.01    5.14 v _44_/ZN (NOR2_X1)
+                  0.01    0.00    5.14 v _45_/B (XNOR2_X1)
+     1    1.60    0.02    0.03    5.18 ^ _45_/ZN (XNOR2_X1)
+                  0.02    0.00    5.18 ^ mux_inst/_39_/A1 (NAND2_X1)
+     1    1.54    0.01    0.01    5.19 v mux_inst/_39_/ZN (NAND2_X1)
+                  0.01    0.00    5.19 v mux_inst/_41_/A3 (NAND4_X1)
+     1    0.00    0.01    0.02    5.21 ^ mux_inst/_41_/ZN (NAND4_X1)
+                  0.01    0.00    5.21 ^ result[3] (out)
+                                  5.21   data arrival time
+
+                  0.00 1000.00 1000.00   clock CLK (rise edge)
+                          0.00 1000.00   clock network delay (ideal)
+                          0.00 1000.00   clock reconvergence pessimism
+                         -5.00  995.00   output external delay
+                                995.00   data required time
+-----------------------------------------------------------------------------
+                                995.00   data required time
+                                 -5.21   data arrival time
+-----------------------------------------------------------------------------
+                                989.79   slack (MET)
+
+
+Startpoint: A[1] (input port clocked by CLK)
+Endpoint: result[3] (output port clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 ^ input external delay
+     4    6.67    0.00    0.00    5.00 ^ A[1] (in)
+                  0.00    0.00    5.00 ^ _30_/B (XOR2_X1)
+     4    6.42    0.04    0.06    5.06 ^ _30_/Z (XOR2_X1)
+                  0.04    0.00    5.06 ^ _42_/A1 (NAND2_X1)
+     2    2.29    0.01    0.02    5.08 v _42_/ZN (NAND2_X1)
+                  0.01    0.00    5.08 v _43_/B2 (AOI21_X1)
+     2    3.37    0.03    0.04    5.13 ^ _43_/ZN (AOI21_X1)
+                  0.03    0.00    5.13 ^ _44_/A2 (NOR2_X1)
+     1    2.37    0.01    0.01    5.14 v _44_/ZN (NOR2_X1)
+                  0.01    0.00    5.14 v _45_/B (XNOR2_X1)
+     1    1.60    0.02    0.03    5.17 ^ _45_/ZN (XNOR2_X1)
+                  0.02    0.00    5.17 ^ mux_inst/_39_/A1 (NAND2_X1)
+     1    1.54    0.01    0.01    5.19 v mux_inst/_39_/ZN (NAND2_X1)
+                  0.01    0.00    5.19 v mux_inst/_41_/A3 (NAND4_X1)
+     1    0.00    0.01    0.02    5.21 ^ mux_inst/_41_/ZN (NAND4_X1)
+                  0.01    0.00    5.21 ^ result[3] (out)
+                                  5.21   data arrival time
+
+                  0.00 1000.00 1000.00   clock CLK (rise edge)
+                          0.00 1000.00   clock network delay (ideal)
+                          0.00 1000.00   clock reconvergence pessimism
+                         -5.00  995.00   output external delay
+                                995.00   data required time
+-----------------------------------------------------------------------------
+                                995.00   data required time
+                                 -5.21   data arrival time
+-----------------------------------------------------------------------------
+                                989.79   slack (MET)
+
+
+Startpoint: A[1] (input port clocked by CLK)
+Endpoint: result[3] (output port clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 v input external delay
+     4    6.36    0.00    0.00    5.00 v A[1] (in)
+                  0.00    0.00    5.00 v _30_/B (XOR2_X1)
+     4    6.42    0.04    0.05    5.05 ^ _30_/Z (XOR2_X1)
+                  0.04    0.00    5.05 ^ _42_/A1 (NAND2_X1)
+     2    2.29    0.01    0.02    5.07 v _42_/ZN (NAND2_X1)
+                  0.01    0.00    5.07 v _43_/B2 (AOI21_X1)
+     2    3.37    0.03    0.04    5.11 ^ _43_/ZN (AOI21_X1)
+                  0.03    0.00    5.11 ^ _44_/A2 (NOR2_X1)
+     1    2.37    0.01    0.01    5.13 v _44_/ZN (NOR2_X1)
+                  0.01    0.00    5.13 v _45_/B (XNOR2_X1)
+     1    1.60    0.02    0.03    5.16 ^ _45_/ZN (XNOR2_X1)
+                  0.02    0.00    5.16 ^ mux_inst/_39_/A1 (NAND2_X1)
+     1    1.54    0.01    0.01    5.18 v mux_inst/_39_/ZN (NAND2_X1)
+                  0.01    0.00    5.18 v mux_inst/_41_/A3 (NAND4_X1)
+     1    0.00    0.01    0.02    5.19 ^ mux_inst/_41_/ZN (NAND4_X1)
+                  0.01    0.00    5.19 ^ result[3] (out)
+                                  5.19   data arrival time
+
+                  0.00 1000.00 1000.00   clock CLK (rise edge)
+                          0.00 1000.00   clock network delay (ideal)
+                          0.00 1000.00   clock reconvergence pessimism
+                         -5.00  995.00   output external delay
+                                995.00   data required time
+-----------------------------------------------------------------------------
+                                995.00   data required time
+                                 -5.19   data arrival time
+-----------------------------------------------------------------------------
+                                989.81   slack (MET)
+
+
+Startpoint: A[0] (input port clocked by CLK)
+Endpoint: result[3] (output port clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 ^ input external delay
+     5    8.34    0.00    0.00    5.00 ^ A[0] (in)
+                  0.00    0.00    5.00 ^ _32_/A2 (AND2_X1)
+     3    5.62    0.02    0.04    5.04 ^ _32_/ZN (AND2_X1)
+                  0.02    0.00    5.04 ^ _42_/A2 (NAND2_X1)
+     2    2.29    0.01    0.02    5.06 v _42_/ZN (NAND2_X1)
+                  0.01    0.00    5.06 v _43_/B2 (AOI21_X1)
+     2    3.37    0.03    0.04    5.10 ^ _43_/ZN (AOI21_X1)
+                  0.03    0.00    5.10 ^ _44_/A2 (NOR2_X1)
+     1    2.37    0.01    0.01    5.11 v _44_/ZN (NOR2_X1)
+                  0.01    0.00    5.11 v _45_/B (XNOR2_X1)
+     1    1.60    0.02    0.03    5.14 ^ _45_/ZN (XNOR2_X1)
+                  0.02    0.00    5.14 ^ mux_inst/_39_/A1 (NAND2_X1)
+     1    1.54    0.01    0.01    5.16 v mux_inst/_39_/ZN (NAND2_X1)
+                  0.01    0.00    5.16 v mux_inst/_41_/A3 (NAND4_X1)
+     1    0.00    0.01    0.02    5.18 ^ mux_inst/_41_/ZN (NAND4_X1)
+                  0.01    0.00    5.18 ^ result[3] (out)
+                                  5.18   data arrival time
+
+                  0.00 1000.00 1000.00   clock CLK (rise edge)
+                          0.00 1000.00   clock network delay (ideal)
+                          0.00 1000.00   clock reconvergence pessimism
+                         -5.00  995.00   output external delay
+                                995.00   data required time
+-----------------------------------------------------------------------------
+                                995.00   data required time
+                                 -5.18   data arrival time
+-----------------------------------------------------------------------------
+                                989.82   slack (MET)
+
+
+Startpoint: B[1] (input port clocked by CLK)
+Endpoint: result[2] (output port clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 ^ input external delay
+     4    6.49    0.00    0.00    5.00 ^ B[1] (in)
+                  0.00    0.00    5.00 ^ _30_/A (XOR2_X1)
+     4    6.13    0.02    0.02    5.02 v _30_/Z (XOR2_X1)
+                  0.02    0.00    5.02 v _34_/A (AOI21_X1)
+     3    4.94    0.04    0.06    5.08 ^ _34_/ZN (AOI21_X1)
+                  0.04    0.00    5.08 ^ _35_/A2 (NOR2_X1)
+     1    2.37    0.01    0.02    5.09 v _35_/ZN (NOR2_X1)
+                  0.01    0.00    5.09 v _39_/B (XNOR2_X1)
+     1    1.56    0.01    0.04    5.13 v _39_/ZN (XNOR2_X1)
+                  0.01    0.00    5.13 v mux_inst/_24_/A1 (NAND3_X1)
+     1    1.64    0.01    0.02    5.15 ^ mux_inst/_24_/ZN (NAND3_X1)
+                  0.01    0.00    5.15 ^ mux_inst/_26_/A3 (NAND4_X1)
+     1    0.00    0.01    0.02    5.17 v mux_inst/_26_/ZN (NAND4_X1)
+                  0.01    0.00    5.17 v result[2] (out)
+                                  5.17   data arrival time
+
+                  0.00 1000.00 1000.00   clock CLK (rise edge)
+                          0.00 1000.00   clock network delay (ideal)
+                          0.00 1000.00   clock reconvergence pessimism
+                         -5.00  995.00   output external delay
+                                995.00   data required time
+-----------------------------------------------------------------------------
+                                995.00   data required time
+                                 -5.17   data arrival time
+-----------------------------------------------------------------------------
+                                989.83   slack (MET)
+
+
+Startpoint: B[0] (input port clocked by CLK)
+Endpoint: result[3] (output port clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock CLK (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          5.00    5.00 ^ input external delay
+     6    8.89    0.00    0.00    5.00 ^ B[0] (in)
+                  0.00    0.00    5.00 ^ _32_/A1 (AND2_X1)
+     3    5.62    0.02    0.04    5.04 ^ _32_/ZN (AND2_X1)
+                  0.02    0.00    5.04 ^ _42_/A2 (NAND2_X1)
+     2    2.29    0.01    0.02    5.05 v _42_/ZN (NAND2_X1)
+                  0.01    0.00    5.05 v _43_/B2 (AOI21_X1)
+     2    3.37    0.03    0.04    5.10 ^ _43_/ZN (AOI21_X1)
+                  0.03    0.00    5.10 ^ _44_/A2 (NOR2_X1)
+     1    2.37    0.01    0.01    5.11 v _44_/ZN (NOR2_X1)
+                  0.01    0.00    5.11 v _45_/B (XNOR2_X1)
+     1    1.60    0.02    0.03    5.14 ^ _45_/ZN (XNOR2_X1)
+                  0.02    0.00    5.14 ^ mux_inst/_39_/A1 (NAND2_X1)
+     1    1.54    0.01    0.01    5.16 v mux_inst/_39_/ZN (NAND2_X1)
+                  0.01    0.00    5.16 v mux_inst/_41_/A3 (NAND4_X1)
+     1    0.00    0.01    0.02    5.18 ^ mux_inst/_41_/ZN (NAND4_X1)
+                  0.01    0.00    5.18 ^ result[3] (out)
+                                  5.18   data arrival time
+
+                  0.00 1000.00 1000.00   clock CLK (rise edge)
+                          0.00 1000.00   clock network delay (ideal)
+                          0.00 1000.00   clock reconvergence pessimism
+                         -5.00  995.00   output external delay
+                                995.00   data required time
+-----------------------------------------------------------------------------
+                                995.00   data required time
+                                 -5.18   data arrival time
+-----------------------------------------------------------------------------
+                                989.82   slack (MET)
+
+
